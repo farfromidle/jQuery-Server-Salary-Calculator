@@ -1,12 +1,12 @@
 $(document).ready(init);
 
 console.log('server');
-const calculator = {
-  displayValue: '0',
-  firstOperand: null,
-  waitingForSecondOperand: false,
-  operator: null
-};
+// const calculator = {
+//   displayValue: '0',
+//   firstOperand: null,
+//   waitingForSecondOperand: false,
+//   operator: null
+// };
 
 function init() {
   console.log('Where are you running!?!');
