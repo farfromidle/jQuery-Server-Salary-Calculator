@@ -50,6 +50,8 @@ app.post('/calc', (req, res) => {
   res.send(calcObject); //should be sending what is calculated over to the client. I think. https://sailsjs.com/documentation/reference/response-res/res-send
 });
 
+//History part goes here.
+
 app.listen(PORT, () => {
   console.log('Server is running on port', PORT);
 });

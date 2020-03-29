@@ -1,15 +1,12 @@
 $(document).ready(init);
 
-console.log('server');
-// const calculator = {
-//   displayValue: '0',
-//   firstOperand: null,
-//   waitingForSecondOperand: false,
-//   operator: null
-// };
+let operator = '';
 
+const calculate = [];
 function init() {
   console.log('Where are you running!?!');
+
+  return calcNum();
 }
 
 function calcNum() {

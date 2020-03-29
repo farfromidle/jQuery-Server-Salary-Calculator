@@ -1,1 +1,4 @@
 /* Do this last */
+#numBlock {
+  display: inline-block;
+}
